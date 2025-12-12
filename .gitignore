@@ -1,0 +1,79 @@
+######################################
+# 🔹 ASP.NET Core / C# (server)
+######################################
+
+# Compilación
+server/bin/
+server/obj/
+
+# Publicaciones
+server/publish/
+server/out/
+
+# Logs
+*.log
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales
+*.vspscc
+_vssver.scc
+*.vssscc
+
+# Configuraciones ocultas de VS
+.vs/
+
+# Base de datos local de EF
+server/*.db
+server/*.db-shm
+server/*.db-wal
+
+# Archivos de configuración sensibles
+server/appsettings.Development.json
+server/appsettings.Local.json
+server/appsettings.*.local.json
+
+######################################
+# 🔹 Node / Vite / React (client)
+######################################
+
+# Dependencias
+client/node_modules/
+
+# Builds
+client/dist/
+client/build/
+
+# Archivos de entorno
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.env.test
+
+# Logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+######################################
+# 🔹 Global / Sistema
+######################################
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor settings
+*.swp
+*.tmp
+
+# VSCode settings (solo lo personal)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
